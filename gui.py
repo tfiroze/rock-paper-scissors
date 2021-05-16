@@ -13,18 +13,17 @@ inp_var=tk.StringVar()
 
 
 def sub():
+    global score
     score=score_var.get()
     print("The maximum score is : " + score)
     score_var.set("")
     
 
 def submit():
-
-	inp=inp_var.get()
-	
-	print("User chose : " + inp)
-	
-	inp_var.set("")
+    global inp
+    inp=inp_var.get()
+    print("User chose : " + inp)
+    inp_var.set("")
 	
 	
 
