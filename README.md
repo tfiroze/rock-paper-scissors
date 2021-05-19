@@ -15,7 +15,7 @@
 
 ---
 ## In-progress
-* Working on Frontend of the GUI
+* Working on the frontend of the GUI
 * Adding more games to make a gamehub
 
 ---
