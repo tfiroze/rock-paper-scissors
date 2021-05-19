@@ -1,5 +1,6 @@
-## Rock-Paper-Scissors
-<br>A basic python based rock paper scissor game 
+# Rock-Paper-Scissors
+<br>A basic python based rock paper scissor game
 
-<h3>In-progress</h3>
+---
+## In-progress
 Trying to implment a gui
