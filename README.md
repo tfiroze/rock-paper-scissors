@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/KrishChatterjie/resume">
+<a href="https://github.com/tfiroze/rock-paper-scissors">
 <img src="https://www.esquireme.com/public/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=7H3NxSxN" alt="rps Icon" height="250" width="300"/>
 </a>
 <h1 align="center"> Rock-Paper-Scissors </h1>
@@ -11,7 +11,7 @@
 
 ### This repository includes:
 * A Rock Paper Scissors game on the python compiler
-* A GUI based Rock Paper Sicssors game using tkinter
+* A GUI based Rock Paper Sicssors game using Tkinter
 
 ---
 ## In-progress
