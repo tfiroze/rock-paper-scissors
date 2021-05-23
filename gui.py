@@ -4,7 +4,7 @@ import random
 
 root=tk.Tk()
 output = tk.Text(root, height = 50, 
-              width = 25, 
+              width = 50, 
               bg = "light cyan")
 
 def comp():
@@ -34,7 +34,7 @@ def checkwin(a,b,c):
 root.title("ROCK-PAPER-SCISSORS")
 
 # setting the windows size
-root.geometry("600x400")
+root.geometry("600x600")
 
 # declaring string variable
 
@@ -124,7 +124,7 @@ inp_label.grid(row=1,column=0)
 inp_entry.grid(row=1,column=1)
 sub_btn2.grid(row=0,column=3)
 sub_btn1.grid(row=1,column=3)
-output.grid(row=2,column=1)
+output.grid(row=2,column=0)
 
 
 root.mainloop()
