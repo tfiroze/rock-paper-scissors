@@ -7,6 +7,11 @@ from tkinter.ttk import *
 root=tk.Tk()
 root.geometry("600x600")
 root.title("GAME CENTER")
+root.configure(bg="red")
+i=0
+i=int(i)
+j=0
+j=int(j)
 # function to open a new window
 # on a button click
 def openNewWindow():
@@ -51,11 +56,7 @@ def openNewWindow():
             output.insert(END,'\nGAME OVER')
             return 0
             
-    global i,j
-    i=0
-    i=int(i)
-    j=0
-    j=int(j)
+
 
 
     cru.title("ROCK-PAPER-SCISSORS")
@@ -79,7 +80,7 @@ def openNewWindow():
         
 
     def submit():
-        global inp
+        global inp,i,j
         
         
         inp=inp_var.get()
@@ -154,21 +155,14 @@ def openNewWindow():
 
 
     cru.mainloop()
-
-
-
-
-
-label = Label(root,
-              text ="Welcome to Game Center")
- 
+label = tk.Label(text="WELCOME TO GAME CENTER", fg="white", bg="black",font="Helvetica 20")
 label.pack(pady = 10)
  
 # a button widget which will open a
 # new window on button click
-btn = Button(root,
-             text ="Click to play Rock Paper Scissors",
-             command = openNewWindow)
+btn = tk.Button(root,
+             text ="Click to play Rock Paper Scissors",font="Helvetica 10",
+             command = openNewWindow,bg="black",fg="white")
 btn.pack(pady = 10)
  
 # mainloop, runs infinitely
